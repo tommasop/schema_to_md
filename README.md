@@ -28,6 +28,12 @@ export PATH=$PATH:~/Github/schema_to_md
 to_md
 ```
 
+If you are in a Rails app and you want to add also table associations (belongs_to, has_many)
+
+```bash
+bundle exec rails runner to_md_assoc
+```
+
 ## Rails ERD
 
 ```bash
